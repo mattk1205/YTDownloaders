@@ -43,10 +43,11 @@ pip install requests python-dotenv yt-dlp
 
 ### **0. Clone Repo**
 
+```bash
 git clone [git@github.com:mattk1205/YTDownloaders.git](https://github.com/mattk1205/YTDownloaders.git)
 cd YTDownloaders/
 chmod +x main.sh
-
+```
 ### **1. Spotify API Credentials**
 
 Create a `.env` file (or export as environment variables):
