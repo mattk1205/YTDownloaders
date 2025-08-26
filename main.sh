@@ -15,15 +15,15 @@ while [[ $# -gt 0 ]]; do
     --songs)   SONGS_IN="$2"; shift 2 ;;
     --spotify) SPOTIFY_IN="$2"; shift 2 ;;
     --ytpl)    YTPL_IN="$2"; shift 2 ;;
-    --links)   LINKS_IN="$2"; shift 2 ;;
+    --yt-links)   LINKS_IN="$2"; shift 2 ;;
     --outdir)  OUTDIR_ARG="$2"; shift 2 ;;
     -h|--help)
-      echo "Usage: $0 [--songs <file>] [--spotify <file>] [--ytplaylist <file>] [--yt_links <file>] [--outdir <dir>]"
+      echo "Usage: $0 [--songs <file>] [--spotify <file>] [--ytplaylist <file>] [--yt-links <file>] [--outdir <dir>]"
       exit 0
       ;;
     *)
       echo "Unknown arg: $1"
-      echo "Usage: $0 [--songs <file>] [--spotify <file>] [--ytplaylist <file>] [--yt_links <file>] [--outdir <dir>]"
+      echo "Usage: $0 [--songs <file>] [--spotify <file>] [--ytplaylist <file>] [--yt-links <file>] [--outdir <dir>]"
       exit 1
       ;;
   esac
